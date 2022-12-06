@@ -1,10 +1,12 @@
 # goat-bot
 This is a python "program" to automaticly open crates in goat evolution. (might work on other evolution games from tapps games.)
 
-You need to make your own screenshots of the sprites the crates and evolution crates. OTHERWISE IT WILL NOT WORK!!!
+You need to make your own screenshots of the sprites the crates and evolution crates. OTHERWISE IT WILL NOT WORK!!! (note d not remove the "r" in front of the file path. PYHTON WILL CRY IF YOU DO!!)
 And ypu need to change the file path to the corresponding file path fo your computer.
+The things that are supposed to be for the berries are currently broken.
+To stop the program move you mouse to the bottom right corner and that sould result in an error.
 
-# Yes very goed.
+# Install maybe...
 
 To get the program to work you need python. (Duh...)
 Open cmd and do:
@@ -14,5 +16,9 @@ Open cmd and do:
   
 I hope thats it...
 
-The things that are supposed to be for the berry is currently broken.
-To stop the program move you mouse to the bottom right corner and that sould result in an error.
+# Scrcpy.
+
+You also need something to get your phones screen on you laptop/computer.
+I use this program:
+https://github.com/Genymobile/scrcpy
+You need to have "usb debugging" ENABLED on your device and have it connected to your computer/laptop otherwise it'll not work!
