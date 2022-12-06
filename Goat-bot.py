@@ -10,9 +10,10 @@ berry = 0
 
 # Goat evolution autoboxes and berries!
 # maybe more soon? haven't decided yet!
+# Berries = broken. fix soon?
 
 while a == 0:
-    if berry <= 25:
+    if berry <= 45:
         cratepos = pyautogui.locateOnScreen(r"C:\Users\aGooglyBiscuit\OneDrive\goat evo\Images\Crate-Laptop.png", confidence=0.5)
         if cratepos == None:
             takebutton = pyautogui.locateOnScreen(r"C:\Users\aGooglyBiscuit\OneDrive\goat evo\Images\Take-Button-Laptop.png", confidence=0.5)
@@ -28,7 +29,7 @@ while a == 0:
             pyautogui.moveTo(cratepos)
             pyautogui.leftClick()
             berry += 1
-        if evobox >= 12:
+        if evobox >= 20:
             posevobox = pyautogui.locateOnScreen(r"C:\Users\aGooglyBiscuit\OneDrive\goat evo\Images\Evolution-Crate-Laptop.png", confidence=0.5)
             if posevobox == None:
                 evobox == 0
