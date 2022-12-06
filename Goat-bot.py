@@ -13,9 +13,9 @@ berry = 0
 
 while a == 0:
     if berry <= 25:
-        cratepos = pyautogui.locateOnScreen(r"C:\Users\menno\OneDrive\goat evo\Images\Crate-Laptop.png", confidence=0.5)
+        cratepos = pyautogui.locateOnScreen(r"C:\Users\aGooglyBiscuit\OneDrive\goat evo\Images\Crate-Laptop.png", confidence=0.5)
         if cratepos == None:
-            takebutton = pyautogui.locateOnScreen(r"C:\Users\menno\OneDrive\goat evo\Images\Take-Button-Laptop.png", confidence=0.5)
+            takebutton = pyautogui.locateOnScreen(r"C:\Users\aGooglyBiscuit\OneDrive\goat evo\Images\Take-Button-Laptop.png", confidence=0.5)
             if takebutton == None:
                 None
             else:
@@ -29,7 +29,7 @@ while a == 0:
             pyautogui.leftClick()
             berry += 1
         if evobox >= 12:
-            posevobox = pyautogui.locateOnScreen(r"C:\Users\menno\OneDrive\goat evo\Images\Evolution-Crate-Laptop.png", confidence=0.5)
+            posevobox = pyautogui.locateOnScreen(r"C:\Users\aGooglyBiscuit\OneDrive\goat evo\Images\Evolution-Crate-Laptop.png", confidence=0.5)
             if posevobox == None:
                 evobox == 0
             else:
@@ -40,11 +40,11 @@ while a == 0:
         else:
             evobox += 1
     else:
-        posredberry = pyautogui.locateOnScreen(r"C:\Users\menno\OneDrive\goat evo\Images\Poopy-Berry-Laptop.png", confidence=0.5)
+        posredberry = pyautogui.locateOnScreen(r"C:\Users\aGooglyBiscuit\OneDrive\goat evo\Images\Poopy-Berry-Laptop.png", confidence=0.5)
         if posredberry == None:
-            posblueberry = pyautogui.locateOnScreen(r"C:\Users\menno\OneDrive\goat evo\Images\Diamond-Berry-Laptop.png", confidence=0.5)
+            posblueberry = pyautogui.locateOnScreen(r"C:\Users\aGooglyBiscuit\OneDrive\goat evo\Images\Diamond-Berry-Laptop.png", confidence=0.5)
             if posblueberry == None:
-                posyellowberry = pyautogui.locateOnScreen(r"C:\Users\menno\OneDrive\goat evo\Images\Combine-Berry-Laptop.png", confidence=0.5)
+                posyellowberry = pyautogui.locateOnScreen(r"C:\Users\aGooglyBiscuit\OneDrive\goat evo\Images\Combine-Berry-Laptop.png", confidence=0.5)
                 if posyellowberry == None:
                     None
                 else:
