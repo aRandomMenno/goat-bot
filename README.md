@@ -10,7 +10,7 @@ To stop the program move you mouse to the bottom right corner and that sould res
 
 To get the program to work you need python. (Duh...)
 Open cmd and do:
-  \n`pip install pyautogui`
+  `pip install pyautogui`
   `pip install pillow`
   `pip install opencv-python`
   
